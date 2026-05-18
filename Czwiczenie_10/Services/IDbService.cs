@@ -7,6 +7,6 @@ public interface IDbService
     Task<IEnumerable<GetPcDto>> GetAllAsync();
     Task<GetPcComponentDetailsDto?> GetByIdAsync(int id);
     Task<GetPcDto> CreatePcAsync(CreatePcDto createPc);
-    Task<bool> UpdatePcAsync(int Id, EditPcDto editPc);
+    Task<bool> UpdatePcAsync(int id, EditPcDto editPc);
     Task<bool> DeleteAsync(int id);
 }

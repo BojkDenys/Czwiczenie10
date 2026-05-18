@@ -6,5 +6,5 @@ public class GetComponentDto
     public string Name { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public GetManufacturerDto Manufacturer { get; set; } = null!;
-    public GetComponentTypeDto ComponentType { get; set; } = null!;
+    public GetComponentTypeDto Type { get; set; } = null!;
 }
